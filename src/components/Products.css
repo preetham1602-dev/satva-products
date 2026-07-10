@@ -1,0 +1,32 @@
+.products{
+    padding:80px 20px;
+    background:#FFF9F1;
+    text-align:center;
+}
+
+.products h2{
+    font-size:2rem;
+    color:#2E7D32;
+    margin-bottom:12px;
+}
+
+.products-subtitle{
+    color:#666;
+    max-width:600px;
+    margin:0 auto 40px;
+    line-height:1.6;
+}
+
+.products-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:25px;
+}
+
+@media(min-width:768px){
+
+.products-grid{
+    grid-template-columns:repeat(3,1fr);
+}
+
+}

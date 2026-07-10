@@ -1,0 +1,159 @@
+.announcement-bar {
+  background: #f7d77c;
+  color: #222;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+} 
+
+ .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.brand h2 {
+  margin: 0;
+  color: #2E7D32;
+  font-size: 22px;
+}
+
+.brand p {
+  margin: 0;
+  color: #D4AF37;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+}  */
+/* HERO */
+
+/* .hero{
+    padding:35px 20px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:36px;
+    color:#2E7D32;
+    line-height:1.2;
+}
+
+.hero p{
+    color:#555;
+    margin-top:15px;
+    line-height:1.6;
+}
+
+.hero-info{
+    margin:25px 0;
+}
+
+.hero-info p{
+    margin:8px 0;
+    font-weight:600;
+}
+
+.primary-btn{
+    display:inline-block;
+    margin-top:10px;
+    background:#2E7D32;
+    color:white;
+    padding:14px 30px;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.hero-image{
+    width:100%;
+    margin-top:35px;
+    border-radius:20px;
+} */
+/* PRODUCT MODAL */
+
+/* .modal-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    z-index:2000;
+}
+
+.modal{
+    background:white;
+    border-radius:20px;
+    width:100%;
+    max-width:700px;
+    position:relative;
+    overflow:hidden;
+}
+
+.close-btn{
+    position:absolute;
+    top:15px;
+    right:15px;
+    border:none;
+    background:none;
+    font-size:26px;
+    cursor:pointer;
+}
+
+.modal-content{
+    display:flex;
+    flex-direction:column;
+}
+
+.modal-image img{
+    width:100%;
+    display:block;
+}
+
+.modal-details{
+    padding:20px;
+}
+
+.modal-details ul{
+    margin:15px 0;
+    padding-left:20px;
+}
+
+.size-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:15px 0;
+}
+
+@media(min-width:768px){
+
+.modal-content{
+    flex-direction:row;
+}
+
+.modal-image,
+.modal-details{
+    width:50%;
+}
+
+} */

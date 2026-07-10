@@ -1,0 +1,82 @@
+ .modal-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    z-index:2000;
+}
+
+.modal{
+    background:white;
+    border-radius:20px;
+    width:100%;
+    max-width:700px;
+    max-height:90vh;
+    overflow-y:auto;
+   position: relative;
+}
+
+.close-btn{
+    position:absolute;
+    top:15px;
+    right:15px;
+    border:none;
+    background:none;
+    font-size:26px;
+    cursor:pointer;
+}
+
+.modal-content{
+    display:flex;
+    flex-direction:column;
+}
+
+.modal-image img{
+    width:100%;
+    display:block;
+}
+
+.modal-details{
+    padding:30px;
+}
+
+.modal-details ul{
+    margin:15px 0;
+    padding-left:20px;
+}
+
+.size-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:15px 0;
+}
+
+@media(min-width:768px){
+
+.modal-content{
+    flex-direction:row;
+}
+
+.modal-image,
+.modal-details{
+    width:50%;
+}}
+.modal-order-btn{
+    background:linear-gradient(135deg,#25D366,#128C7E);
+    color:white;
+    border:none;
+    padding:12px 18px;
+    border-radius:12px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.modal-order-btn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(37,211,102,.3);
+}

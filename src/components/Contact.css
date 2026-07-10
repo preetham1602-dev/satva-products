@@ -1,0 +1,36 @@
+.contact{
+    padding:70px 20px;
+    text-align:center;
+    background:#fffdf7;
+}
+
+.contact h2{
+    color:#2E7D32;
+    font-size:32px;
+}
+
+.contact p{
+    margin:15px auto 35px;
+    color:#666;
+    max-width:500px;
+}
+
+.contact-card{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    margin-bottom:20px;
+}
+
+.contact-icon{
+    font-size:42px;
+    color:#2E7D32;
+    margin-bottom:15px;
+}
+
+.contact-card a{
+    color:#2E7D32;
+    text-decoration:none;
+    font-weight:bold;
+}
