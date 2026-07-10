@@ -34,7 +34,7 @@ function Contact() {
 
         <h3>Email</h3>
 
-        <a href="mailto:manishpujary81@mail.com">
+        <a href="mailto:manishpujary81@gmail.com">
           manishpujary81@gmail.com
         </a>
 
