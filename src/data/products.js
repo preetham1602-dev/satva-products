@@ -13,9 +13,9 @@ const products = [
       { size: "500 ml", price: 950 },
     ],
     benefits: [
-      "Helps relieve muscle & joint discomfort",
-      "Traditional Ayurvedic formulation",
-      "Suitable for daily massage",
+      "Quick Relief",
+      "Safe and Effective",
+      "Most Trusted",
     ],
   },
 
@@ -29,9 +29,10 @@ const products = [
       { size: "500 ml", price: 950 },
     ],
     benefits: [
-      "Helps nourish the scalp",
-      "Supports healthy-looking hair",
-      "Traditional herbal hair oil",
+      "Control Hair Fall",
+      "Long Hair Growth",
+      "Remove Dandruff",
+      "Helps Control White Hair"
     ],
   },
 
